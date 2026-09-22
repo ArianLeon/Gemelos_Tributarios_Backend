@@ -39,6 +39,7 @@ C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\model\TablaRetencion.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\model\TablaTarifaRimpe.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\model\TablaTramoRenta.java
+C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\model\TokenRecuperacion.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\model\Usuario.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\repository\CalculoHistorialRepository.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\repository\CalendarioNovenoDigitoRepository.java
@@ -57,6 +58,7 @@ C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\repository\TablaRetencionRepository.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\repository\TablaTarifaRimpeRepository.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\repository\TablaTramoRentaRepository.java
+C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\repository\TokenRecuperacionRepository.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\repository\UsuarioRepository.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\CalculoHistorialService.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\CalendarioNovenoDigitoService.java
@@ -72,6 +74,7 @@ C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\PreferenciaNotificacionService.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\PreguntaFrecuenteService.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\ProgresoGuiaUsuarioService.java
+C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\RecuperacionService.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\TablaRetencionService.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\TablaTarifaRimpeService.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\TablaTramoRentaService.java
