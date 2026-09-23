@@ -20,6 +20,8 @@ C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\controller\TablaTarifaRimpeController.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\controller\TablaTramoRentaController.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\controller\UsuarioController.java
+C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\dto\GeneracionObligacionesResponse.java
+C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\dto\NotificacionResponse.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\GemeloTriburarioBackendApplication.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\model\CalculoHistorial.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\model\CalendarioNovenoDigito.java
@@ -68,6 +70,7 @@ C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\GuiaAprendizajeService.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\NotificacionService.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\ObligacionCatalogoService.java
+C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\ObligacionGeneradorService.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\ObligacionUsuarioService.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\PerfilTributarioService.java
 C:\Users\ASUS TUF\Downloads\GemeloTriburarioBackend\GemeloTriburarioBackend\src\main\java\GemeloApp\GemeloTriburarioBackend\service\PeriodoFiscalDatosService.java

@@ -1,6 +1,8 @@
 package GemeloApp.GemeloTriburarioBackend.controller;
 
+import GemeloApp.GemeloTriburarioBackend.dto.GeneracionObligacionesResponse;
 import GemeloApp.GemeloTriburarioBackend.model.ObligacionUsuario;
+import GemeloApp.GemeloTriburarioBackend.service.ObligacionGeneradorService;
 import GemeloApp.GemeloTriburarioBackend.service.ObligacionUsuarioService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
@@ -17,6 +19,7 @@ import java.util.List;
 public class ObligacionUsuarioController {
 
     private final ObligacionUsuarioService service;
+    private final ObligacionGeneradorService generadorService;
 
     @GetMapping
     public ResponseEntity<List<ObligacionUsuario>> listar() {
@@ -58,7 +61,11 @@ public class ObligacionUsuarioController {
     public ResponseEntity<ObligacionUsuario> alternarEnCalendario(@PathVariable Long id, @RequestParam boolean valor) {
         return ResponseEntity.ok(service.alternarEnCalendario(id, valor));
     }
-
+    
+    @PostMapping("/usuario/{idUsuario}/generar")
+    public ResponseEntity<GeneracionObligacionesResponse> generar(@PathVariable Long idUsuario) {
+        return ResponseEntity.ok(generadorService.generarParaUsuario(idUsuario));
+    }
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> eliminar(@PathVariable Long id) {
         service.eliminar(id);
