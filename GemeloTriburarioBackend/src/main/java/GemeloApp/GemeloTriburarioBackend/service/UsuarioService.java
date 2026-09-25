@@ -57,9 +57,14 @@ public class UsuarioService {
         usuario.setTelefono(datos.getTelefono());
         usuario.setFechaNacimiento(datos.getFechaNacimiento());
         usuario.setDireccion(datos.getDireccion());
-        usuario.setFotoUrl(datos.getFotoUrl());
+        if (datos.getFotoUrl() != null) {
+            usuario.setFotoUrl(datos.getFotoUrl());
+        }
         if (datos.getContrasenaHash() != null && !datos.getContrasenaHash().isBlank()) {
             usuario.setContrasenaHash(passwordEncoder.encode(datos.getContrasenaHash()));
+        }
+                if (datos.getActivo() != null) {
+            usuario.setActivo(datos.getActivo());
         }
         return usuarioRepository.save(usuario);
     }

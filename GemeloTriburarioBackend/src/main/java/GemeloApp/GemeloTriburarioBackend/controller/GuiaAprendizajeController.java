@@ -7,8 +7,10 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/api/guias-aprendizaje")
@@ -31,6 +33,13 @@ public class GuiaAprendizajeController {
     @PostMapping
     public ResponseEntity<GuiaAprendizaje> crear(@Valid @RequestBody GuiaAprendizaje datos) {
         return ResponseEntity.status(201).body(service.crear(datos));
+    }
+    
+        /** Sube un archivo (video o documento) desde el dispositivo y devuelve su URL pública. */
+    @PostMapping(value = "/archivo", consumes = "multipart/form-data")
+    public ResponseEntity<Map<String, String>> subirArchivo(@RequestParam("archivo") MultipartFile archivo) {
+        String url = service.subirArchivoContenido(archivo);
+        return ResponseEntity.ok(Map.of("url", url));
     }
 
     @PutMapping("/{id}")

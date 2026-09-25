@@ -50,6 +50,11 @@ public class Usuario {
     @Column(nullable = false)
     private Boolean activo = true;
 
+        /** USUARIO o ADMIN */
+    @Builder.Default
+    @Column(nullable = false, length = 20)
+    private String rol = "USUARIO";
+
     @Column(nullable = false, updatable = false)
     private LocalDateTime fechaCreacion;
 
@@ -61,6 +66,12 @@ public class Usuario {
         LocalDateTime ahora = LocalDateTime.now();
         fechaCreacion = ahora;
         fechaActualizacion = ahora;
+        if (activo == null) {
+            activo = true;
+        }
+        if (rol == null || rol.isBlank()) {
+            rol = "USUARIO";
+        }
     }
 
     @PreUpdate
