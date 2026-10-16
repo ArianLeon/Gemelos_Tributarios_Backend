@@ -9,7 +9,7 @@ public class GemeloTriburarioBackendApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GemeloTriburarioBackendApplication.class, args);
 
-		System.out.println("Bienvenido al backend de Gemelo Tributario");
+		System.out.println("Bienvenido al backend de Tribnex");
 	}
 
 }
