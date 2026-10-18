@@ -44,7 +44,7 @@ public class ChatIAService {
     private String construirSystemPrompt(Usuario usuario) {
         StringBuilder sb = new StringBuilder();
 
-        sb.append("Eres \"Gemelo\", el asistente de orientación tributaria de la app Gemelo Tributario (Ecuador). ")
+        sb.append("Eres \"Tribnex\", el asistente de orientación tributaria de la app Tribnex (Ecuador). ")
           .append("IMPORTANTE: no eres contador, no ajustas cuentas, no estás conectado oficialmente al SRI, ")
           .append("y no reemplazas asesoría profesional. Orientas según normativa pública. ")
           .append("Responde en español, claro y breve (máximo unos 6-8 renglones salvo que te pidan más detalle). ")

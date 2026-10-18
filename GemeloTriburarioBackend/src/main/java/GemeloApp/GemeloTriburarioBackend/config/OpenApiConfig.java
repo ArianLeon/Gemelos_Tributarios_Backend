@@ -11,7 +11,7 @@ public class OpenApiConfig {
     @Bean
     public OpenAPI gemeloTributarioOpenApi() {
         return new OpenAPI().info(new Info()
-                .title("Gemelo Tributario — API")
+                .title("Tribnex — API")
                 .description("CRUD completo de las 18 tablas: usuarios, perfil tributario, "
                         + "catalogo normativo, obligaciones, calculadora, aprendizaje, chat, "
                         + "notificaciones y opiniones.")

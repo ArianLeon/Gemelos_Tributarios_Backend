@@ -16,7 +16,7 @@ public class SoporteService {
     private final JavaMailSender mailSender;
     private final UsuarioRepository usuarioRepository;
 
-    @Value("${app.soporte.correo-destino:soporte@gemelotributario.com}")
+    @Value("${app.soporte.correo-destino:tribnexsoporte@gmail.com}")
     private String correoDestino;
 
     public void enviarMensajeSoporte(Long idUsuario, SoporteRequest datos) {
@@ -28,7 +28,7 @@ public class SoporteService {
 
         SimpleMailMessage mensaje = new SimpleMailMessage();
         mensaje.setTo(correoDestino);
-        mensaje.setSubject("Gemelo Tributario · Nuevo mensaje de soporte");
+        mensaje.setSubject("Tribnex · Nuevo mensaje de soporte");
         mensaje.setText(
             "Nombre: " + usuario.getPrimerNombre() + " " + (usuario.getApellidoPaterno() != null ? usuario.getApellidoPaterno() : "") + "\n" +
             "Correo: " + usuario.getCorreo() + "\n\n" +

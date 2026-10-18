@@ -80,7 +80,7 @@ public class RecuperacionService {
     private void enviarCorreo(String correoDestino, String codigo) {
         SimpleMailMessage mensaje = new SimpleMailMessage();
         mensaje.setTo(correoDestino);
-        mensaje.setSubject("Codigo de recuperacion - Gemelo Tributario");
+        mensaje.setSubject("Codigo de recuperacion - Tribnex");
         mensaje.setText("Tu codigo para restablecer tu contrasena es: " + codigo
                 + "\n\nExpira en " + minutosExpiracion + " minutos."
                 + "\n\nSi no solicitaste esto, ignora este correo.");
